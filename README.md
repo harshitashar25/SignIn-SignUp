@@ -1,4 +1,12 @@
+
+
+
+
+https://github.com/user-attachments/assets/f122e3aa-ac87-4ae8-99b9-be29c3675e27
+
+
 # i10ai
+
 
 A full-stack web application featuring Google OAuth authentication, a React-based frontend, and a Node.js/Express backend with MongoDB integration.
 
@@ -83,10 +91,13 @@ npm install
 1. Create a `.env` file with the following:
 
 ```env
+PORT=5001
 MONGO_URI=<your_mongo_uri>
 GOOGLE_CLIENT_ID=<your_google_client_id>
 GOOGLE_CLIENT_SECRET=<your_google_client_secret>
 JWT_SECRET=<your_jwt_secret>
+GOOGLE_CALLBACK_URL=http://localhost:5001/auth/google/callback
+FRONTEND_URL=http://localhost:3000
 ```
 
 2. Start the backend server:
@@ -154,3 +165,5 @@ The frontend will run at: `http://localhost:3000`
 ## License
 
 This project is licensed under the MIT License.
+
+
