@@ -27,7 +27,7 @@ A full-stack web application featuring Google OAuth authentication, a React-base
 
 ```
 i10ai/
-├── tailwind.config.js
+
 ├── backend/
 │   ├── package.json
 │   ├── playground-1.mongodb.js
@@ -45,6 +45,7 @@ i10ai/
     ├── package.json
     ├── README.md
     ├── tsconfig.json
+    ├── tailwind.config.js
     ├── public/
     │   ├── favicon.ico
     │   ├── google.png
