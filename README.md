@@ -5,10 +5,9 @@
 https://github.com/user-attachments/assets/f122e3aa-ac87-4ae8-99b9-be29c3675e27
 
 
-# i10ai
 
 
-A full-stack web application featuring Google OAuth authentication, a React-based frontend, and a Node.js/Express backend with MongoDB integration.
+A **full-stack web application** featuring **Google OAuth authentication**, a React-based frontend, and a Node.js/Express backend with MongoDB integration.
 
 ---
 
